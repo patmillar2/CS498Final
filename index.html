@@ -1,7 +1,55 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<head>
+  <meta charset="utf-8">
+  <title>Pmillar2 - CS498 Class Project</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/stepper.css">
+
+  <script src="js/d3.v2.min.js"></script>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div id="container">
+    <h1>Pmillar2 - CS498 Class Project</h1>
+    <h2 class="subtitle">Relationship between general welfare and homicide rate examined:</h2>
+    <h2 class="subtitle">Web Template provided by: http://vallandingham.me/stepper_steps.html</h2>
+    <div id="vis-nav">
+      <a href="#" id="step1" class="step-link active">Overview: Welfare Data</a>
+      <a href="#" id="step2" class="step-link">Overview: Homicide Data</a>
+      <a href="#" id="step3" class="step-link">Conclusion: Data Comparison</a>
+    </div>
+    <div id="vis-container">
+      <div id="annotation-steps">
+        <div class="annotation-step" id="step1-annotation" style="display:block;">
+          <div class="annotation" id="step1-left-annotation" >
+            <h4>Left Annotation Title</h4>
+            <p>Here is the annotation text for the <strong>left</strong> annotation of step 1</p>
+          </div>
+          <div class="annotation" id="step1-right-annotation" >
+            <h4>Right Annotation Title</h4>
+            <p>Here is the annotation text for the <strong>right</strong> annotation of step 1</p>
+          </div>
+        </div>
+        <div class="annotation-step" id="step2-annotation">
+          <div class="annotation" id="step2-center-annotation" >
+            <h4>Center Annotation Title</h4>
+            <p>Here is the annotation text for the center annotation of step 2.<br/> 
+              We are using absolute positioning of these divs</p>
+          </div>
+        </div>
+        <div class="annotation-step" id="step3-annotation">
+          <div class="annotation" id="step3-high-annotation" >
+            <h4>High Annotation Title</h4>
+            <p>This is text up high.</p>
+          </div>
+          <div class="annotation" id="step3-low-annotation" >
+            <h4>Low Annotation Title</h4>
+            <p>This is text down low.</p>
+          </div>
+        </div>
+      </div>
+      <div id="vis-canvas"></div>
+    </div>
+  </div>
+  <script src="js/stepper.js"></script>
 </body>
-</html>
