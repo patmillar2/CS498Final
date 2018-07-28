@@ -18,8 +18,8 @@
     <h2 class="subtitle">Comparing Welfare With Homicide Rate</h2>
     <h2 class="subtitle">Web Template provided by: http://vallandingham.me/stepper_steps.html</h2>
     <div id="vis-nav">
-      <a href="#" id="step1" class="step-link active">Overview: Avg Welfare</a>
-      <a href="#" id="step2" class="step-link">Overview: Avg Homoicide</a>
+      <a href="#" id="step1" class="step-link active">Overview: Avg Homicide Rate</a>
+      <a href="#" id="step2" class="step-link">Overview: HDI Index</a>
       <a href="#" id="step3" class="step-link">Conclusion: Comparison</a>
     </div>
     <div id="vis-container">
@@ -93,11 +93,11 @@
             
             // format the data
             data.forEach(function(d) {
-                d.Rate = +d.Rate;
+                d.dataset = +d.dataset;
             });
 
               x.domain(data.map(function(d) { return d.Country; }));
-              y.domain([0, d3.max(data, function(d) { return d.2005; })]);
+              y.domain([0, d3.max(data, function(d) { return d.dataset; })]);
 
               g.append("g")
                   .attr("class", "axis axis--y")
@@ -114,9 +114,9 @@
                 .enter().append("rect")
                   .attr("class", "bar")
                   .attr("x", function(d) { return x(d.Country); })
-                  .attr("y", function(d) { return y(d.2005); })
+                  .attr("y", function(d) { return y(d.dataset); })
                   .attr("width", x.bandwidth())
-                  .attr("height", function(d) { return height - y(d.2005); })
+                  .attr("height", function(d) { return height - y(d.dataset); })
                   .append("svg:title")
                   .text(function(d) { return d.Country; });
             });
