@@ -2,8 +2,8 @@
 
 $("bcontent").empty();
 
-var margin = {top: 20, right: 20, bottom: 30, left: 40},
-    width = 980 - margin.left - margin.right,
+var margin = {top: 20, right: 20, bottom: 30, left: 20},
+    width = 960 - margin.left - margin.right,
     height = 700 - margin.top - margin.bottom;
 
 var svg = d3.select("bcontent").append("svg")
