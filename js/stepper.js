@@ -12,7 +12,7 @@ function switchAnnotation(newStep)
 
 function switchScript(newStep)
 {
-  $.getScript(newStep + "-script.js");
+  $.getScript("js/" + newStep + "-script.js");
 }
 
 $(document).ready(function() {
