@@ -17,6 +17,15 @@ a.step-link {
   text-decoration: none;
 }
 
+.bar rect {
+  fill: steelblue;
+}
+
+.bar text {
+  fill: #fff;
+  font: 10px sans-serif;
+}
+
 a.step-link:hover, a.active {
   color: #ddd;
 }
