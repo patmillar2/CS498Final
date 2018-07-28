@@ -10,12 +10,6 @@ function switchAnnotation(newStep)
   $("#" + newStep + "-annotation").delay(300).fadeIn(500);
 }
 
-function switchScript(newStep)
-{
-  $.getScript("js/" + newStep + "-script.js");
-}
-
-
 $(document).ready(function() {
   $("a.step-link").click(function(e) {
     var clickedStep = $(this).attr('id');
