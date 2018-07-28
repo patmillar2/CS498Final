@@ -63,16 +63,16 @@
                   .attr("y", 6)
                   .attr("dy", "0.71em")
                   .attr("text-anchor", "end")
-                  .text("Frequency");
+                  .text("AVG Rate Per 100k");
 
               g.selectAll(".bar")
                 .data(data)
                 .enter().append("rect")
                   .attr("class", "bar")
-                  .attr("x", function(d) { return x(d.letter); })
-                  .attr("y", function(d) { return y(d.frequency); })
+                  .attr("x", function(d) { return x(d.Country); })
+                  .attr("y", function(d) { return y(d.Rate); })
                   .attr("width", x.bandwidth())
-                  .attr("height", function(d) { return height - y(d.frequency); });
+                  .attr("height", function(d) { return height - y(d.Rate); });
             });
           </script>
           <div class="annotation" id="step1-left-annotation" >
