@@ -17,13 +17,16 @@ a.step-link {
   text-decoration: none;
 }
 
-.bar rect {
+.bar {
   fill: steelblue;
 }
 
-.bar text {
-  fill: #fff;
-  font: 10px sans-serif;
+.bar:hover {
+  fill: brown;
+}
+
+.axis--x path {
+  display: none;
 }
 
 a.step-link:hover, a.active {
