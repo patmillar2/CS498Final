@@ -67,7 +67,9 @@
                   .attr("x", function(d) { return x(d.Country); })
                   .attr("y", function(d) { return y(d.Rate); })
                   .attr("width", x.bandwidth())
-                  .attr("height", function(d) { return height - y(d.Rate); });
+                  .attr("height", function(d) { return height - y(d.Rate); })
+                  .append("svg:title")
+                  .text(function(d) { return d.Country; });
             });
           </script>
           <div class="annotation" id="step1-left-annotation" >
