@@ -33,6 +33,12 @@ circle:hover {
   fill: brown;
 }
 
+.axis line, .axis path {
+    shape-rendering: crispEdges;
+    stroke: black;
+    fill: none;
+}
+
 .axis--x path {
   display: none;
 }
