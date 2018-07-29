@@ -6,21 +6,15 @@ var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var x = d3.scale.linear()
-    .range([0, width]);
+var x = d3.scaleLinear()
+    .rangeRound([0, width]);
 
-var y = d3.scale.linear()
-    .range([height, 0]);
-
-var color = d3.scale.category10();
-
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom");
-
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left");
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
+		  
+var xAxis = d3.axisBottom(x);
+		  
+var yAxis = d3.axisLeft(y);
 
 var svg = d3.select("dcontent").append("svg")
     .attr("width", width + margin.left + margin.right)
@@ -69,7 +63,6 @@ data.forEach(function(d) {
       .attr("r", 3.5)
       .attr("cx", function(d) { return x(d.dataset); })
       .attr("cy", function(d) { return y(d.Rate); })
-      .style("fill", function(d) { return color(d.Country)
       .append("svg:title")
       .text(function(d) { return d.Country; });
 });    
