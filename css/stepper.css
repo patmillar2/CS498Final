@@ -17,6 +17,14 @@ a.step-link {
   text-decoration: none;
 }
 
+circle {
+    fill: steelblue;
+}
+
+circle:hover {
+    fill: brown;
+}
+
 .bar {
   fill: steelblue;
 }
