@@ -62,7 +62,7 @@ data.forEach(function(d) {
       .enter().append("svg:circle")
           .attr("cx", function (d,i) { return x(d.dataset); } )
           .attr("cy", function (d) { return y(d.Rate); } )
-          .attr("r", 4);
+          .attr("r", 4)
 	  .append("svg:title")
       	  .text(function(d) { return d.Country; });
   });
