@@ -41,11 +41,11 @@
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var x = d3.scale.linear()
-    .range([0, width]);
+var x = d3.scalelinear()
+    .rangeRound([0, width]);
 
-var y = d3.scale.linear()
-    .range([height, 0]);
+var y = d3.scalelinear()
+    .rangeRound([height, 0]);
 
 var color = d3.scale.category10();
 
