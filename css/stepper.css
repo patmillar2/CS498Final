@@ -26,6 +26,12 @@ a.step-link {
 
 .dot {
   stroke: #000;
+  fill: steelblue;
+}
+
+.dot:hover {
+  stroke: #000;
+  fill: brown;
 }
 
 .bar {
