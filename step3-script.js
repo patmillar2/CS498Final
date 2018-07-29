@@ -63,6 +63,7 @@ data.forEach(function(d) {
       .attr("r", 3.5)
       .attr("cx", function(d) { return x(d.dataset); })
       .attr("cy", function(d) { return y(d.Rate); })
+      .style("fill", function(d) { return "steelblue"; })
       .append("svg:title")
       .text(function(d) { return d.Country; });
 });    
