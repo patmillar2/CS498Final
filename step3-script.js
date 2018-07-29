@@ -1,6 +1,6 @@
 !(function (d3) {
 
-$("bcontent").empty();
+$("ccontent").empty();
 
 var margin = {top: 20, right: 20, bottom: 30, left: 20},
     width = 960 - margin.left - margin.right,
@@ -56,6 +56,8 @@ data.forEach(function(d) {
       .attr("cx", function (d,i) { return x(d.dataset); } )
       .attr("cy", function (d) { return y(d.Rate); } )
       .attr("r", 4);
+      .append("svg:title")
+      .text(function(d) { return d.Country; });
   });
 
 })(d3);
