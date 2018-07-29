@@ -1,0 +1,110 @@
+Country,Year,Count,Rate,Source,Source Type,dataset
+Albania,2005,131,4.2,CTS/Transmonee,CJ,0.696
+Antigua and Barbuda,2005,3,3.6,OAS/National police,CJ,0.773
+Argentina,2005,2115,5.5,CTS/Ministry of Justice,CJ,0.782
+Armenia,2005,58,1.9,CTS/Transmonee,CJ,0.692
+Australia,2005,259,1.3,CTS/NSO,CJ,0.915
+Austria,2005,54,0.7,CTS/Eurostat,CJ,0.854
+Bahamas,2005,52,16.3,OAS,CJ,0.788
+Bahrain,2005,4,0.6,CTS,CJ,0.81
+Bangladesh,2005,3592,2.6,National police,CJ,0.506
+Barbados,2005,25,9.2,CTS/OAS,CJ,0.766
+Belarus,2005,825,8.4,CTS,CJ,0.723
+Belgium,2005,221,2.1,CTS,CJ,0.865
+Belize,2005,81,28.8,CTS/OAS,CJ,0.692
+Bolivia (Plurinational State of),2005,596,6.5,National police,CJ,0.625
+Bosnia and Herzegovina,2005,70,1.9,CTS/Eurostat,CJ,0.697
+Brazil,2005,41581,22.4,Ministry of Justice,CJ,0.698
+Bulgaria,2005,199,2.6,CTS/Eurostat,CJ,0.75
+Cambodia,2005,448,3.4,NGO,CJ,0.483
+Canada,2005,663,2.1,NSO,CJ,0.891
+Chile,2005,576,3.5,CTS,CJ,0.796
+China,2005,20770,1.6,NSO,CJ,0.646
+Colombia,2005,18111,42.1,National police,CJ,0.669
+Costa Rica,2005,335,7.8,CTS/Ministry of Justice,CJ,0.727
+Croatia,2005,68,1.5,CTS/Eurostat,CJ,0.783
+Cuba,2005,687,6.1,PAHO,PH,0.732
+Cyprus,2005,20,1.9,CTS,CJ,0.829
+Czech Republic,2005,186,1.8,CTS,CJ,0.847
+Denmark,2005,53,1,CTS,CJ,0.902
+Dominica,2005,8,11.6,OAS,CJ,0.705
+Dominican Republic,2005,2394,25.8,NGO/SES,CJ,0.677
+Ecuador,2005,2121,15.8,OAS/National police,CJ,0.693
+Egypt,2005,522,0.7,CTS,CJ,0.636
+El Salvador,2005,3778,62.4,National police/OAS,CJ,0.651
+Estonia,2005,113,8.4,CTS/Eurostat,CJ,0.822
+Finland,2005,119,2.3,CTS,CJ,0.869
+France,2005,976,1.6,CTS/Eurostat,CJ,0.87
+Georgia,2005,403,9,CTS/Transmonee,CJ,0.714
+Germany,2005,869,1.1,CTS,CJ,0.892
+Greece,2005,132,1.2,CTS/Eurostat,CJ,0.85
+Guatemala,2005,5338,42,CTS/National police,CJ,0.57
+Guyana,2005,142,19,OAS/NSO,CJ,0.622
+Honduras,2005,2417,35.1,OCAVI/National police,CJ,0.583
+Hong Kong,2005,34,0.5,CTS/National police,CJ,0.87
+Hungary,2005,164,1.6,CTS,CJ,0.802
+Iceland,2005,3,1,CTS,CJ,0.884
+India,2005,39506,3.5,National police,CJ,0.536
+Ireland,2005,52,1.3,CTS/National police,CJ,0.896
+Israel,2005,163,2.5,CTS/NSO,CJ,0.87
+Italy,2005,610,1,CTS,CJ,0.856
+Jamaica,2005,1674,62.4,CTS/National police,CJ,0.709
+Japan,2005,643,0.5,CTS,CJ,0.873
+Jordan,2005,67,1.3,CTS,CJ,0.733
+Kazakhstan,2005,1848,12.2,Transmonee,CJ,0.747
+Kuwait,2005,66,2.9,CTS,CJ,0.787
+Kyrgyzstan,2005,491,9.7,CTS/Transmonee,CJ,0.613
+Latvia,2005,126,5.5,CTS,CJ,0.807
+Lebanon,2005,156,3.8,National police,CJ,0.733
+Lithuania,2005,372,10.9,CTS,CJ,0.807
+Malaysia,2005,497,1.9,CTS,CJ,0.732
+Malta,2005,4,1,CTS,CJ,0.809
+Mauritius,2005,37,2.9,CTS,CJ,0.713
+Mexico,2005,9921,9.3,NSO,CJ,0.723
+Mongolia,2005,398,15.6,CTS,CJ,0.649
+Montenegro,2005,22,3.5,CTS,CJ,0.751
+Morocco,2005,469,1.5,CTS,CJ,0.575
+Nepal,2005,913,3.3,NSO,CJ,0.476
+Netherlands,2005,197,1.2,Eurostat,CJ,0.893
+New Zealand,2005,61,1.5,National police,CJ,0.888
+Nicaragua,2005,729,13.4,National police,CJ,0.597
+Norway,2005,33,0.7,CTS/Eurostat,CJ,0.931
+Occupied Palestinian Territory,2005,145,4.1,CTS,CJ,0.656
+Pakistan,2005,9631,6.1,NSO,CJ,0.501
+Panama,2005,364,11.2,National police,CJ,0.744
+Paraguay,2005,887,15,OAS,CJ,0.648
+Peru,2005,3057,11.1,CTS,CJ,0.693
+Philippines,2005,6434,7.5,CTS,CJ,0.646
+Poland,2005,555,1.5,CTS,CJ,0.803
+Portugal,2005,135,1.3,CTS/Eurostat,CJ,0.793
+Qatar,2005,6,0.7,CTS,CJ,0.835
+Romania,2005,453,2.1,Eurostat,CJ,0.755
+Russian Federation,2005,25439,17.7,CTS,CJ,0.754
+Saint Lucia,2005,41,24.8,OAS,CJ,0.694
+Saint Vincent and the Grenadines,2005,26,23.9,OAS/NGO,CJ,0.695
+Saudi Arabia,2005,297,1.2,NSO,CJ,0.767
+Serbia,2005,147,1.5,CTS/Eurostat,CJ,0.739
+Singapore,2005,21,0.5,CTS/National police,CJ,0.839
+Slovakia,2005,106,2,CTS/Transmonee,CJ,0.793
+Slovenia,2005,20,1,CTS,CJ,0.858
+Solomon Islands,2005,26,5.5,CTS,CJ,0.47
+South Africa,2005,18528,38.8,National police,CJ,0.609
+Spain,2005,518,1.2,CTS/Eurostat,CJ,0.844
+Sri Lanka,2005,1221,6.2,National police,CJ,0.718
+Suriname,2005,69,13.8,OAS,CJ,0.678
+Sweden,2005,81,0.9,CTS/Eurostat,CJ,0.892
+Switzerland,2005,75,1,CTS/Eurostat,CJ,0.904
+Syrian Arab Republic,2005,430,2.3,NSO,CJ,0.636
+Tajikistan,2005,157,2.4,Transmonee,CJ,0.579
+Thailand,2005,4806,7.2,National police,CJ,0.686
+The former Yugoslav Republic of Macedonia,2005,53,2.6,CTS/Eurostat,CJ,0.703
+Trinidad and Tobago,2005,386,29.3,OAS,CJ,0.751
+Turkey,2005,3305,4.9,CTS,CJ,0.687
+Ukraine,2005,3315,7.1,Transmonee,CJ,0.716
+United Arab Emirates,2005,56,1.4,CTS,CJ,0.823
+United Kingdom,2005,894,1.5,Eurostat,CJ,0.89
+United States,2005,14860,5,National police,CJ,0.898
+Uruguay,2005,188,5.7,Ministry of Interior/SES/OAS,CJ,0.756
+Uzbekistan,2005,910,3.5,CTS/Transmonee,CJ,0.626
+Venezuela (Bolivarian Republic of),2005,9964,37.4,NGO,CJ,0.714
+Yemen,2005,945,4.6,NSO,CJ,0.475
