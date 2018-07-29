@@ -46,14 +46,10 @@ var x = d3.scaleLinear()
 
 var y = d3.scaleLinear()
     .rangeRound([height, 0]);
-
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom");
-
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left");
+		  
+var xAxis = d3.axisBottom(x);
+		  
+var yAxis = d3.axisLeft(y);
 
 var svg = d3.select("dcontent").append("svg")
     .attr("width", width + margin.left + margin.right)
