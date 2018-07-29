@@ -1,6 +1,6 @@
 !(function (d3) {
 
-$("ccontent").empty();
+$("dcontent").empty();
 
 var margin = {top: 20, right: 20, bottom: 30, left: 40},
     width = 960 - margin.left - margin.right,
@@ -22,7 +22,7 @@ var yAxis = d3.svg.axis()
     .scale(y)
     .orient("left");
 
-var svg = d3.select("ccontent").append("svg")
+var svg = d3.select("dcontent").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
     .append("g")
