@@ -17,12 +17,15 @@ a.step-link {
   text-decoration: none;
 }
 
-circle {
-    fill: steelblue;
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
 }
 
-circle:hover {
-    fill: brown;
+.dot {
+  stroke: #000;
 }
 
 .bar {
@@ -31,12 +34,6 @@ circle:hover {
 
 .bar:hover {
   fill: brown;
-}
-
-.axis line, .axis path {
-    shape-rendering: crispEdges;
-    stroke: black;
-    fill: none;
 }
 
 .axis--x path {
