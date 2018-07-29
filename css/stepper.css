@@ -51,6 +51,7 @@ a.step-link:hover, a.active {
 }
 
 #container{
+  margin: auto;
   padding-top: 20px;
   width: 980px;
 }
@@ -63,6 +64,7 @@ a.step-link:hover, a.active {
   width: 980px;
   height: 700px;
   margin-top: 10px;
+  margin-right: 970px;
 }
 
 /* All the .annotation-step divs are inside
