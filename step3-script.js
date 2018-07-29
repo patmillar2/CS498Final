@@ -15,14 +15,13 @@ data.forEach(function(d) {
     d.dataset = +d.dataset
 });
 	
-   var x = d3.scale.linear()
-              .domain([0, d3.max(data, function(d) { return d.dataset; })])
-              .range([ 0, width ]);
+    var x = d3.scaleLinear().rangeRound([width, 0]);
     
-    var y = d3.scale.linear()
-    	      .domain([0, d3.max(data, function(d) { return d.Rate; })])
-    	      .range([ height, 0 ]);
+    var y = d3.scaleLinear().rangeRound([height, 0]);
  
+    x.domain([0, d3.max(data, function(d) { return d.dataset; })]);
+    y.domain([0, d3.max(data, function(d) { return d.Rate; })]);
+	
     var chart = d3.select('ccontent')
 	.append('svg:svg')
 	.attr('width', width + margin.right + margin.left)
